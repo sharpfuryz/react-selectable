@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom")) : factory(root["React"], root["ReactDOM"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(this, function(__WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_6__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_6__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -921,8 +921,8 @@ var SelectableGroup = function (_React$Component) {
 			};
 
 			var spanStyle = {
-				backgroundColor: 'transparent',
-				border: '1px dashed #999',
+				backgroundColor: 'rgba(16, 140, 240, 0.2)',
+				border: '1px solid #118df0',
 				width: '100%',
 				height: '100%',
 				float: 'left'
