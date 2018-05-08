@@ -235,8 +235,8 @@ class SelectableGroup extends React.Component {
 		};
 
 		const spanStyle = {
-			backgroundColor: 'transparent',
-			border: '1px dashed #999',
+			backgroundColor: 'rgba(16, 140, 240, 0.2)',
+			border: '1px solid #118df0',
 			width: '100%',
 			height: '100%',
 			float: 'left'
